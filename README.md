@@ -20,7 +20,7 @@
 
 ## 🔗 Live Demo
 
-[Live Preview](#) <!-- Replace # with GitHub Pages link if deployed -->
+[Live Preview](https://nitindaswani.github.io/FocusFlow/) 
 
 ## 📂 Project Structure
 
