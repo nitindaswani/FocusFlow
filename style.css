@@ -36,17 +36,18 @@ body {
   font-weight: 9000;
   font-size: 35px;
 }
-.slogan a {
+.download {
   text-decoration: none;
   background-color: royalblue;
-  color: white;
   border-radius: 7px;
-  width: 130px;
-  height: 30px;
   padding: 5px 20px;
   font-weight: 900;
   transition: background-color 0.2s ease, box-shadow 0.2s ease;
+  color: white;
+  display: inline-block;
+  width: 130px;
 }
+
 .photo {
   display: inline;
 }
@@ -62,7 +63,7 @@ body {
   color: rgb(38, 38, 38);
   padding: 0px 10px 0px 10px;
   display: grid;
-  grid-template-rows: 30% 60%;
+  grid-template-rows: 30% 70%;
 }
 .features h3 {
   margin: 0px;
@@ -213,7 +214,7 @@ body {
   transform: scale(1.05);
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
-.slogan a:hover {
+.download:hover {
   background-color: lightcyan;
   color: black;
   box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
@@ -222,11 +223,9 @@ body {
   opacity: 0.7;
 }
 
-/* testing */
-
 @media (max-width: 1140px) {
   .head {
-    height: 500px;
+    height: 530px;
   }
   .div1 {
     grid-gap: 20px;
@@ -283,7 +282,6 @@ body {
   .photo img {
     width: 270px;
     height: 207px;
-    border-radius: 10px;
     padding-bottom: 40px;
   }
   .features {
@@ -338,5 +336,155 @@ body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     justify-content: start;
+  }
+}
+@media (min-width: 300px) and (max-width: 500px) {
+  .head {
+    height: 300px;
+  }
+  .head h3 {
+    font-size: 10px;
+    padding: 0px 0px 20px 0px;
+  }
+  .div1 {
+    display: grid;
+    grid-template-rows: 65% 35%;
+  }
+  .slogan {
+    width: 206px;
+  }
+  .slogan h1 {
+    place-self: center;
+    width: 55%;
+    margin-top: 10px;
+    padding-top: 20px;
+    font-size: 15px;
+  }
+  .slogan p {
+    width: 55%;
+    place-self: center;
+  }
+  .download {
+    width: 100px;
+    font-size: 8px;
+    padding: 5px 0px;
+    margin: 5px 0px;
+  }
+  .photo {
+    place-self: start;
+  }
+  .photo img {
+    width: 100px;
+    height: 37px;
+  }
+  .features {
+    height: 600px;
+    padding-bottom: 20px;
+    display: grid;
+    grid-template-rows: 10% 90%;
+  }
+  .features h3 {
+    width: 100px;
+    font-size: 15px;
+    padding: 15px 0px;
+  }
+  .fea_card {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .card {
+    padding: 5px;
+    margin: 0px;
+    width: 70px;
+    place-self: center;
+    height: 100px;
+  }
+  .card div {
+    font-size: 15px;
+  }
+  .card h2 {
+    font-size: 10px;
+    margin: 5px;
+  }
+  .card p {
+    font-size: 10px;
+    padding: 5px;
+    margin: 5px;
+  }
+  .test {
+    font-size: 10px;
+  }
+  .card_div {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .card_2 img {
+    width: 50px;
+    height: 50px;
+  }
+  .div2 p {
+    font-size: 10px;
+    margin: 0px 5px;
+  }
+  .div2 h4 {
+    font-size: 15px;
+    margin: 0px 5px;
+  }
+  .pricing {
+    font-size: 15px;
+  }
+  .card_3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .card_3 .card_4 {
+    place-self: center;
+    width: 50px;
+  }
+  .card_3 .card_5 {
+    place-self: center;
+    width: 50px;
+  }
+  .card_4 h3{
+    font-size: 15px;
+  }
+  .card_5 h3{
+    font-size: 11px;
+  }
+  .card_4 p,.card_5 p{
+    font-size: 10px;
+  }
+  .plan_tag h2{
+    width: 100px;
+    font-size: 15px;
+  }
+  .social{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 7px;
+  }
+  .footer{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 10px;
+  }
+  .social{
+    margin: 0px;
+    padding: 0px;
+  }
+  .social a{
+    place-self: center;
+    margin: 0px;
+    padding: 0px;
+    font-size: 10px;
+  }
+  .div4 h3{
+     margin: 0px;
+    padding: 0px;
+    font-size: 10px;
   }
 }
