@@ -1,0 +1,342 @@
+* {
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  padding: 30px 50px;
+  background-color: gainsboro;
+}
+.head {
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: white;
+  height: 300px;
+  color: rgb(38, 38, 38);
+  margin: 0px 30px 0px 30px;
+  padding: 5px 10px 0px 10px;
+}
+.head h3 {
+  font-weight: 900;
+}
+.div1 {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  place-items: center;
+}
+.slogan {
+  display: inline-block;
+  width: 355px;
+  color: rgb(38, 38, 38);
+  text-align: center;
+}
+.slogan h1 {
+  margin: 0px 5px;
+  font-weight: 9000;
+  font-size: 35px;
+}
+.slogan a {
+  text-decoration: none;
+  background-color: royalblue;
+  color: white;
+  border-radius: 7px;
+  width: 130px;
+  height: 30px;
+  padding: 5px 20px;
+  font-weight: 900;
+  transition: background-color 0.2s ease, box-shadow 0.2s ease;
+}
+.photo {
+  display: inline;
+}
+.photo img {
+  width: 300px;
+  height: 237px;
+  border-radius: 10px;
+}
+.features {
+  background-color: lightcyan;
+  margin: 0px 30px 0px 30px;
+  height: 330px;
+  color: rgb(38, 38, 38);
+  padding: 0px 10px 0px 10px;
+  display: grid;
+  grid-template-rows: 30% 60%;
+}
+.features h3 {
+  margin: 0px;
+  padding: 30px 0px;
+  font-size: 25px;
+  text-align: center;
+  font-weight: 900;
+}
+.fea_card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  margin: 0px 30px;
+  padding: 10px;
+  text-align: center;
+  height: 180px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card div {
+  font-size: 40px;
+}
+.card p {
+  font-size: 20px;
+}
+.div3 {
+  padding: 0px;
+  margin: 0px;
+  background-color: white;
+  margin: 0px 30px 0px 30px;
+  padding: 5px 10px 0px 10px;
+  height: 600px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.testimonials h1 {
+  text-align: center;
+  margin: 0px;
+  padding: 15px;
+}
+.card_div {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+.card_2 {
+  margin: 20px;
+  height: 120px;
+  border-radius: 30px;
+  background-color: lightcyan;
+  display: grid;
+  grid-template-columns: 30% 70%;
+}
+.card_2 img {
+  width: 100px;
+  height: 100px;
+  justify-self: center;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+.div2 p {
+  padding: 0px;
+  margin: 10px auto 0px auto;
+  font-weight: 500;
+  font-size: 20px;
+}
+.div2 h4 {
+  font-weight: 900;
+  font-size: 20px;
+  padding: 0px;
+  margin: 10px auto 0px auto;
+}
+.card_3 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 60px;
+  text-align: center;
+}
+.card_3 .card_4 {
+  width: 260px;
+  place-self: end;
+  border: 3px solid lightcyan;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.card_3 .card_5 {
+  width: 260px;
+  place-self: start;
+  border: 3px solid lightcyan;
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.card_4 h3,
+.card_5 h3 {
+  font-size: 25px;
+  font-weight: 900;
+}
+.card_4 p,
+.card_5 p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.plan_tag {
+  text-decoration: none;
+  border: none;
+}
+.plan_tag h2 {
+  border-radius: 20px;
+  line-height: 40px;
+  background-color: lightcyan;
+  text-align: center;
+  width: 200px;
+  justify-self: center;
+  height: 40px;
+  margin: 20px 470px;
+  color: rgb(38, 38, 38);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.social {
+  margin: 10px 20px;
+}
+.footer {
+  display: grid;
+  grid-template-columns: 40% 60%;
+}
+.social a {
+  text-decoration: none;
+  color: rgb(38, 38, 38);
+  font-size: 30px;
+  padding: 10px;
+}
+.div4 {
+  justify-self: start;
+  font-size: 20px;
+}
+.div4 h3 {
+  padding: 0px;
+  margin: 10px 20px;
+  font-weight: 500;
+}
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.plan_tag:hover h2 {
+  transform: scale(1.05);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.slogan a:hover {
+  background-color: lightcyan;
+  color: black;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+}
+.social a:hover {
+  opacity: 0.7;
+}
+
+/* testing */
+
+@media (max-width: 1140px) {
+  .head {
+    height: 500px;
+  }
+  .div1 {
+    grid-gap: 20px;
+    grid-template-columns: 100%;
+    grid-template-rows: 40% 60%;
+  }
+  .features {
+    height: 600px;
+    grid-template-rows: 20% 80%;
+  }
+  .features h3 {
+    height: 10px;
+  }
+  .fea_card {
+    display: grid;
+    grid-gap: 30px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+  }
+  .div3 {
+    height: auto;
+  }
+  .card_2 {
+    height: 95%;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 30% 70%;
+  }
+  .card_2 img {
+    width: 100px;
+    height: 100px;
+    place-self: center;
+  }
+  .div2 p,
+  .div2 h4 {
+    width: 90%;
+    font-size: 160%;
+  }
+  .div4 {
+    justify-self: end;
+  }
+
+  .card_3 .card_4 {
+    width: 200px;
+  }
+  .card_3 .card_5 {
+    width: 200px;
+  }
+}
+@media (min-width: 500px) and (max-width: 768px) {
+  .head {
+    height: auto;
+  }
+  .photo img {
+    width: 270px;
+    height: 207px;
+    border-radius: 10px;
+    padding-bottom: 40px;
+  }
+  .features {
+    height: 1050px;
+    grid-template-rows: 10% 90%;
+  }
+  .features h3 {
+    height: 10px;
+  }
+  .fea_card {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+  }
+  .card_div {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50% 50%;
+  }
+  .div2 p {
+    padding: 20px 0px;
+  }
+  .card_2 img {
+    padding: 50px;
+  }
+  .card_3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+  }
+  .card_3 .card_4 {
+    place-self: center;
+    padding: 15px;
+    width: 180px;
+  }
+  .card_3 .card_5 {
+    place-self: center;
+    padding: 15px;
+    width: 180px;
+  }
+
+  .footer {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .div4 {
+    justify-self: end;
+  }
+  .social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: start;
+  }
+}
